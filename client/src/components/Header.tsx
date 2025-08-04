@@ -108,7 +108,7 @@ const Header: React.FC = () => {
               </button>
               
               {isDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg animate-slide-down">
+              <div className="absolute right-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg animate-slide-down">
                   <div className="py-1">
                     {themeOptions.map((option) => (
                       <button
@@ -190,7 +190,7 @@ const Header: React.FC = () => {
               </button>
               
               {isDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-gray-800 border border-gray-700 rounded-lg shadow-lg animate-slide-down">
+                <div className="absolute right-0 mt-2 w-64 bg-gray-800 border border-gray-700 rounded-lg shadow-lg animate-slide-down">
                   <div className="py-1">
                     {themeOptions.map((option) => (
                       <button
@@ -251,7 +251,7 @@ const Header: React.FC = () => {
             </button>
             
             {isDropdownOpen && (
-              <div className="absolute right-0 mt-2 w-56 bg-white border border-pink-200 rounded-xl shadow-xl animate-slide-down">
+              <div className="absolute right-0 mt-2 w-64 bg-white border border-pink-200 rounded-xl shadow-xl animate-slide-down">
                 <div className="py-2">
                   {themeOptions.map((option) => (
                     <button

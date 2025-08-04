@@ -89,10 +89,10 @@ const Home: React.FC = () => {
 
   // Dark Theme Home
   if (theme === 'dark') {
-    const categories = [...new Set(products.map(product => product.category))];
+    const categories = Array.from(new Set(products.map(product => product.category)));
     
     return (
-      <div className="animate-fade-in">
+      <div className="animate-fade-in">   
         <div className="px-6 lg:px-8 py-12">
           {/* Hero Section */}
           <div className="mb-16">
